@@ -1,8 +1,9 @@
 package exception;
 
-public class BadBadValueException implements RuntimeException {
+public class BadBadValueException extends RuntimeException {
 
     public BadBadValueException(){
-        super("Duration must not be negative");
-    }
-}
+        super();
+        System.out.println("Duration must not be negative");
+        }
+        }
